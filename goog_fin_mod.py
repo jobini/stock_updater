@@ -4,6 +4,7 @@ import time, datetime
 import pandas as pd
 
 periodicity = int(raw_input("Enter periodicity (in seconds): "))
+
 portfolio = ['523395', '524348', '523204', '500002', '500410', '533096', \
 '500303', '500215', 'AKZOINDIA', '532480', '532309', '532335', '532282', \
 '532418', '508869', '500477', '500023', '500820', '505029', '519105', \
