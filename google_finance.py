@@ -1,11 +1,16 @@
 import csv
 from googlefinance import getQuotes
 import time
+import pandas as pd
 
 periodicity = int(raw_input("Enter periodicity (in seconds): "))
 
+df1 = pd.read_csv('companies.csv')
+df2 = pd.DataFrame()
+df2["StockSymbol"] = df1["Symbol"]
+portfolio = df2["StockSymbol"].tolist()
+
 def exec_script():
-    portfolio = ['GOOGL','FB','TATAMOTORS','ASHOKLEY','SBIN','SLT','INDIAVIX','500020','HINDPETRO','HCC']
     fieldnames = ["AppendTime","Index","LastTradePrice","LastTradeDateTimeLong",\
     "StockSymbol","ID"]
     file_name = 'sample_portfolio.csv'
