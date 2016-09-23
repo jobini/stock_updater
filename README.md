@@ -6,7 +6,7 @@ These are Python scripts to periodically append stock-related information of a g
 
 <h2><b>Requirements</b></h2>
 
-1. Python version 2.6+
+1. Python version 2.7.6+
 2. [googlefinance](https://pypi.python.org/pypi/googlefinance)
 3. [pandas](https://pypi.python.org/pypi/pandas/0.17.1/)
 
@@ -24,7 +24,7 @@ The `google_finance_mod.py` script provides a template to periodically append on
 
 1. Better optimization using [pandas](https://pypi.python.org/pypi/pandas/0.17.1/)
 2. Pause/resume capability in same file
-3. Implement scheduling to start appending on startup
+3. Implement scheduling to run script on system startup
 
 <h2><b>License</b></h2>
 
