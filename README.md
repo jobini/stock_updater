@@ -24,6 +24,7 @@ The `google_finance_mod.py` script provides a template to periodically append on
 
 1. Better optimization using [pandas](https://pypi.python.org/pypi/pandas/0.17.1/)
 2. Pause/resume capability in same file
+3. Implement scheduling to start appending on startup
 
 <h2><b>License</b></h2>
 
