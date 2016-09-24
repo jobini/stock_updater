@@ -28,4 +28,4 @@ The `google_finance_mod.py` script provides a template to periodically append on
 
 <h2><b>License</b></h2>
 
-Please view LICENSE.md for details on the usage of code in this repository.
+Please view LICENSE for details on the usage of code in this repository.
